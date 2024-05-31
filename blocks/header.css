@@ -1,0 +1,21 @@
+.header {
+  background-color: #000;
+  border: 1px solid white;
+}
+.header__container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  height: 60px;
+  display: flex;
+
+  border: 1px solid white;
+}
+.header__title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid white;
+}
