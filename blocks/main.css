@@ -20,6 +20,7 @@
 .main__column-image {
   width: 350px;
   height: 350px;
+  filter: grayscale(100%);
   background-size: cover;
   background-position: center;
   border: 1px solid black;
