@@ -37,9 +37,10 @@
   border: 1px solid black;
 }
 .main__column-description {
-  border: 1px solid black;
 }
 .main__column-title {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
   border: 1px solid black;
 }
 .main__column-quote {
