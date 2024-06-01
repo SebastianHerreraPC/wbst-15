@@ -45,17 +45,44 @@
   border: 1px solid black;
 }
 .main__column-quote {
+  margin-right: 20px;
+  text-align: right;
   border: 1px solid black;
 }
 .main__column-text {
+  text-align: justify;
   border: 1px solid black;
 }
 .main__column-share {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 34px;
   border: 1px solid black;
 }
 .main__column-share-text {
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  font-size: 18px;
+  line-height: 27px;
+  margin-right: 14px;
   border: 1px solid black;
 }
 .main__column-share-icon {
+  text-decoration: none;
+  display: block;
+
   border: 1px solid black;
+}
+.main__column-share-icon:hover {
+  opacity: 0.8;
+
+  border: 1px solid black;
+}
+.main__column-share-icon-img {
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
 }

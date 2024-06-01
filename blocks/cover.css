@@ -1,5 +1,5 @@
 .cover {
-  height: 600px;
+  min-height: 60vh;
   background-image: url(/images/imgcover.png);
   background-size: cover;
   background-position: center;
@@ -16,12 +16,13 @@
 .cover__title {
   font-size: 96px;
   line-height: 96px;
-  width: 90%;
+  max-width: 849px;
+
   border: 1px solid white;
 }
 .cover__subtitle {
   font-size: 25px;
-  width: 90%;
+  max-width: 610px;
   margin-top: 50px;
 
   border: 1px solid white;
