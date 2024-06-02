@@ -1,5 +1,5 @@
 .cover {
-  min-height: 60vh;
+  min-height: calc(60vh - 60px);
   background-image: url(/images/imgcover.png);
   background-size: cover;
   background-position: center;

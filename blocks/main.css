@@ -5,20 +5,19 @@
   border: 1px solid black;
 }
 .main__colums {
-  padding: 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   width: 90%;
   margin: auto;
+  flex-wrap: wrap;
   border: 1px solid black;
 }
 .main__column {
-  width: 350px;
+  width: calc((100% - 70px) / 3);
   border: 1px solid black;
 }
 .main__column-image {
-  width: 350px;
+  width: 100%;
   height: 350px;
   filter: grayscale(100%);
   background-size: cover;
