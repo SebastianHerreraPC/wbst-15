@@ -18,8 +18,8 @@
 }
 .main__column-image {
   width: 100%;
-  height: 350px;
   filter: grayscale(100%);
+  padding-bottom: 100px;
   background-size: cover;
   background-position: center;
   border: 1px solid black;
@@ -39,16 +39,21 @@
 .main__column-description {
 }
 .main__column-title {
-  font-size: 30px;
+  font-size: 2em;
   font-family: "Montserrat", sans-serif;
   border: 1px solid black;
 }
 .main__column-quote {
   margin-right: 20px;
   text-align: right;
+  font-size: 1.1em;
+  line-height: 1.5;
   border: 1px solid black;
 }
 .main__column-text {
+  font-size: 0.8em;
+  line-height: 1.5;
+
   text-align: justify;
   border: 1px solid black;
 }
