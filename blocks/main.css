@@ -90,3 +90,12 @@
   width: 20px;
   margin-left: 10px;
 }
+@media screen and (max-width: 425px) {
+  .main__columns {
+    flex-direction: column;
+  }
+  .main__column {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+}
